@@ -102,7 +102,7 @@ public class SuccessfullyCheckoutOrderPlacedTest {
     }
 
     @Test(dataProvider = "signInData")
-    public void verifySuccessfullyChecoutOrderPlacedTest(String firstName, String lastName, String password,
+    public void verifySuccessfullyCheckoutOrderPlacedTest(String firstName, String lastName, String password,
                                                String address, String city, String state, String zipCode,
                                                String country, String mobileNumber, String addressForFutureReference){
 
